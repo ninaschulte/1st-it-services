@@ -1,39 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#1st IT Services
 
-Welcome,
+#About
+This is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need new website.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+#Strategy
+The main goal of this website is to provide future clients with information about the company and what company can offer. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+#Target group
+This is B2B business. Company is offering services for small, large business or big corporations. 
 
-## Codeanywhere Reminders
+#User stories
+| ID       | Are           | 
+| ------------- |:-------------:| 
+| #1 | As a first time user, I want to be able to easily navigate through the website, so that I can find the content.|
+| #2| As a user, I want to know how to navigate through the page, so that |  
+| #3| As a user, I want to know what services company is offering, so that I can see if they can help my company solve the problem.|    
+| #4 | As a user, I want to know more about the company, so that I can see if I can trust them.|
+| #5| As a user, I want to have an easy way to contact them, so that I can directly send the company a message.|  
+| #6| As a user, I want to see also company email, phone and address, so that I am sure there is a legit company behind.|
+| #7| As a user, I want to see also company email, phone and address, so that I am sure there is a legit company behind.|      
+| #8| As a user, I want to see thank you page once I submit the contact form, so that I know my message was received.|
+| #9| As a user, I want to see company social media links, so that I can follow them also there.|
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
