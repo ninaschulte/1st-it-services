@@ -12,9 +12,10 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo - At the LOGO you must change it to FLEX style*/
+/* headings and logo - At the LOGO you must change it to FLEX style */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -26,14 +27,15 @@ h1, h2 {
     font-size: 280%;
 }
 
-/* navigation links*/
+/* navigation links* --- check why active is not font coloured!!! and change float to Flex styling */
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -49,9 +51,32 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    color: #034ea2;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
+#menu a:active {
+    color: #034ea2;
 }
+
+#menu a:active {
+    color: #034ea2;
+}
+
+/* hero image style */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/45914.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
