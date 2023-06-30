@@ -27,22 +27,41 @@ h2 {
     font-size: 280%;
 }
 
-/* navigation links* --- check why active is not font coloured!!! and change float to Flex styling */
+/* Navigation using flexbox display */
 
 .menu {
     font-size: 110%;
     letter-spacing: 2px;
-}
-
-.menu,
-.logo {
-    line-height: 75px;
-}
-
-.menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    margin: 15px;
+}
+
+/* Navigation logo */
+.one {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* Navigation for contact, services and home */
+
+.two {
+    flex-grow: 0;
+}
+
+.three {
+    flex-grow: 0;
+}
+
+.four {
+    flex-grow: 0;
 }
 
 .menu a {
@@ -51,10 +70,6 @@ h2 {
 }
 
 .menu a:hover {
-    color: #034ea2;
-}
-
-.menu a:active {
     color: #034ea2;
 }
 
@@ -79,6 +94,7 @@ h2 {
     width: 100wh;
     height: 100vh;
     display: flex;
+    padding: 1em;
 }
 
 .cover-text {
