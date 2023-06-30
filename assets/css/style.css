@@ -101,3 +101,23 @@ h2 {
     position: absolute;
 }
 
+/* Service page */
+
+.services {
+    height: 50vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 25vh auto o;
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+    align-items: baseline;
+}
+
+.item {
+    margin: 0.5em;
+    width: 25%;
+}
