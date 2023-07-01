@@ -59,6 +59,10 @@ This is B2B business. Company is offering services for small, large business or 
 
 <h1>Design</h1>
 
-<h1>Color palette</h1>
+<h2>Color palette</h2>
+![color](https://github.com/ninaschulte/1st-it-services/assets/136459773/3b9b1601-1ade-4ff9-9511-47ce549590a9)
 
+<h2>Hero image</h2>
 hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero
+
+
