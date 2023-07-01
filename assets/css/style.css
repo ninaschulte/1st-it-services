@@ -51,7 +51,6 @@ h2 {
 }
 
 /* Navigation for contact, services and home */
-
 .two {
     flex-grow: 0;
 }
@@ -94,7 +93,10 @@ h2 {
     width: 100wh;
     height: 100vh;
     display: flex;
-    padding: 1em;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover-text {
