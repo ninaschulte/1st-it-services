@@ -162,7 +162,7 @@ h2 {
     margin: 0 auto;
 }
 
-/* About page */
+/* Contact page */
 
 .contact {
     background-color: #f0f0f0;
@@ -177,6 +177,22 @@ h2 {
 .contact-item {
     width: 70%;
     height: 500px;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    color: white;
+    border: 1px;
+}
+
+input[type=text],
+input[type=email], {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
     margin: 0 auto;
 }
 
