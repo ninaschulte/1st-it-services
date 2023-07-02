@@ -162,6 +162,24 @@ h2 {
     margin: 0 auto;
 }
 
+/* About page */
+
+.contact {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-item {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
 /* heading pages */
 
 .heading-pages {
