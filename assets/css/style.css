@@ -142,8 +142,13 @@ h2 {
 }
 
 /* heading pages */
-.headingpage {
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 50px;
+
+.heading-pages {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%; 
 }
+
+
+
+ 
