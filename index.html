@@ -13,20 +13,21 @@
 
 <body>
     <header>
-     <nav>
-        <ul class="menu">
-            <a href="index.html" class="nav one">
-                <h1 class="logo">1st IT Services</h1>
-            </a>
-            <li><a href="#" class="nav four">Home</a></li>
-            <li><a href="#" class="nav three">Services<a>
-            <li><a href="#" class="nav two">About</a></li>
-            <li><a href="#" class="nav two">Contact</a></li>
-        </ul>
-     </nav>
+        <nav>
+            <ul class="menu">
+                <a href="index.html" class="nav one">
+                    <h1 class="logo">1st IT Services</h1>
+                </a>
+                <li><a href="#home" class="nav four">Home</a></li>
+                <li><a href="#services" class="nav three">Services<a>
+                <li><a href="#about" class="nav two">About</a></li>
+                <li><a href="#contact" class="nav two">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section class="hero-outer">
+        <section class="hero-outer" id="home">
             <div class="hero-image">  
                 <h2>Welcome visitor!</h2>
                 <h3>Here you will find all about SAP authorizations.</h3>
@@ -35,7 +36,7 @@
 
         <!--Service page in the main-->
 
-        <section>
+        <section id="services">
             <h1 class="heading-pages">Services</h1>
             <hr>
             <div class="services">
@@ -88,9 +89,9 @@
 
         <!--About page in the main-->
 
-        <section>
+        <section id="about">
             <h2 class="heading-pages">About</h2>
-            <div class="about">
+            <div class="about-container">
                 <p class="about-item">
                     With over 15 years of experience, we are the leading experts in SAP authorization solutions and consulting services. Our
                     team has successfully assisted numerous clients, ranging from small businesses to large corporations, in managing and
@@ -111,9 +112,9 @@
 
      <!--Contact page in the main-->
 
-        <section>
+        <section id="contact">
             <h2 class="heading-pages">Contact</h2>
-            <div class="contact">
+            <div class="contact-container">
                 <form class="contact-item">
                     <div>
                         <label for="name">Name:</label>
