@@ -225,12 +225,16 @@ textarea {
     cursor: pointer;
 }
 
-/* heading pages */
+/* h1 and h3 pages inside pages for contact section, about and services */
 
 .heading-pages {
     text-align: center;
     margin: 25px 0;
     font-size: 280%;
+}
+
+.category {
+    margin-bottom: 1rem;
 }
 
 /* Footer */
