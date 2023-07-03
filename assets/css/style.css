@@ -22,6 +22,12 @@ h2 {
     color: #252525;
 }
 
+h3 {
+    color: #252525;
+    letter-spacing: 2px;
+    font-family: Ubuntu, sans-serif;
+}
+
 .logo {
     font-size: 280%;
 }
@@ -58,6 +64,10 @@ h2 {
     color: #034ea2;
 }
 
+.active {
+    color: #3a3a3a;
+}
+
 /* hero image */
 
 .hero-outer {
@@ -69,7 +79,7 @@ h2 {
 }
 
 .hero-image {
-    background-image: url('../assets/45914.jpg');
+    background-image: url('../images/45914.jpg');
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -120,6 +130,10 @@ h2 {
 
 .item-bottom {
     margin-bottom: 15%;
+}
+
+.category {
+    margin-bottom: 1rem;
 }
 
 /* About page -using FLEXBOX */
