@@ -65,4 +65,7 @@ This is B2B business. Company is offering services for small, large business or 
 <h2>Hero image</h2>
 hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero
 
+<h2>Image of the CEO</h2>
+ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/
+
 
