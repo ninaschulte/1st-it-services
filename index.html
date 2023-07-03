@@ -15,9 +15,9 @@
     <header>
         <nav>
             <ul class="menu">
-                <a href="index.html" class="nav one">
-                    <h1 class="logo">1st IT Services</h1>
-                </a>
+                <li class="nav one"><a href="index.html">
+                        <h1 class="logo">1st IT Services</h1>
+                    </a></li>
                 <li><a href="#home" class="nav four">Home</a></li>
                 <li><a href="#services" class="nav three">Services<a>
                 <li><a href="#about" class="nav two">About</a></li>
@@ -28,9 +28,9 @@
 
     <main>
         <section class="hero-outer" id="home">
-            <div class="hero-image">  
-                <h2>Welcome visitor!</h2>
-                <h3>Here you will find all about SAP authorizations.</h3>
+            <div class="hero-image">
+                <h2 class="transparent-bg">Welcome visitor!</h2>
+                <h3 class="transparent-bg">Here you will find all about SAP authorizations.</h3>
             </div>
         </section>
 
@@ -39,50 +39,56 @@
         <section id="services">
             <h1 class="heading-pages">Services</h1>
             <hr>
-            <div class="services">
-                <div class="row">
-                    <div class="item">
-                     <h3>SAP Authorization Setup and Configuration</h3>
-                     <ul>
+            <div class="services-container">
+
+                <div class="service-container-item item-left item-top">
+                    <h3>SAP Authorization Setup and Configuration</h3>
+                    <ul>
                         <li>Initial SAP authorization setup for new installations or system upgrades</li>
-                        <li>Configuration of authorization roles, profiles, and objects to align with business requirements</li>
+                        <li>Configuration of authorization roles, profiles, and objects to align with business
+                            requirements</li>
                         <li>User access control and segregation of duties analysis</li>
                         <li>Troubleshooting and resolution of authorization-related issues</li>
                         <li>Authorization audits and security assessments</li>
-                     </ul>
-                    </div>
-                    <div class="item">
-                     <h3>SAP Authorization Role Design and Optimization</h3>
-                     <ul>
-                        <li>Designing and defining custom authorization roles based on specific business processes and job functions</li>
+                    </ul>
+                </div>
+                <div class="service-container-item item-right item-top">
+                    <h3>SAP Authorization Role Design and Optimization</h3>
+                    <ul>
+                        <li>Designing and defining custom authorization roles based on specific business processes and
+                            job functions</li>
                         <li>Optimization of existing authorization roles to enhance security and efficiency</li>
-                        <li>Analysis of user access patterns to identify potential authorization gaps or excessive access privileges</li>
-                        <li>Restructuring of authorization roles to align with industry best practices and compliance standards</li>
+                        <li>Analysis of user access patterns to identify potential authorization gaps or excessive
+                            access privileges</li>
+                        <li>Restructuring of authorization roles to align with industry best practices and compliance
+                            standards</li>
                         <li>Documentation and maintenance of authorization role libraries</li>
                     </ul>
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="item">
+                <div class="service-container-item item-left item-bottom">
                     <h3>SAP Authorization Training and Support</h3>
                     <ul>
-                        <li>User training on SAP authorization concepts, role-based access control, and security best practices</li>
+                        <li>User training on SAP authorization concepts, role-based access control, and security best
+                            practices</li>
                         <li>Creation and delivery of customized training materials and workshops</li>
                         <li>Ongoing support for authorization-related queries and issue resolution</li>
                         <li>Guidance on maintaining compliance with relevant regulations and industry standards</li>
-                        <li>Collaboration with IT teams to ensure effective communication and understanding of authorization requirements</li>
+                        <li>Collaboration with IT teams to ensure effective communication and understanding of
+                            authorization requirements</li>
                     </ul>
-                    </div>
-                    <div class="item">
+                </div>
+                <div class="service-container-item item-right item-bottom">
                     <h3>SAP Authorization Consulting and Advisory Services</h3>
                     <ul>
-                        <li>Assessment of current authorization landscape and identification of potential risks and vulnerabilities</li>
+                        <li>Assessment of current authorization landscape and identification of potential risks and
+                            vulnerabilities</li>
                         <li>Development of authorization strategies and roadmaps aligned with business objectives</li>
                         <li>Compliance gap analysis and recommendations for achieving regulatory compliance</li>
-                        <li>Advisory services on SAP security frameworks, authentication methods, and encryption techniques</li>
-                        <li>Collaboration with internal teams to ensure integration of authorization controls into overall security architecture</li>
-                     </ul>
-                    </div>
+                        <li>Advisory services on SAP security frameworks, authentication methods, and encryption
+                            techniques</li>
+                        <li>Collaboration with internal teams to ensure integration of authorization controls into
+                            overall security architecture</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -92,25 +98,30 @@
         <section id="about">
             <h2 class="heading-pages">About</h2>
             <div class="about-container">
-                <p class="about-item">
-                    With over 15 years of experience, we are the leading experts in SAP authorization solutions and consulting services. Our
-                    team has successfully assisted numerous clients, ranging from small businesses to large corporations, in managing and
-                    optimizing their SAP authorization landscapes. 
-                    At [Your Company Name], we specialize in providing tailored solutions that ensure secure access control and compliance
-                    with industry standards. Our knowledgeable professionals possess in-depth expertise in SAP authorization concepts, best
-                    practices, and the latest security frameworks.
-                    Customer satisfaction is our top priority. Over the years, we have built a solid reputation for delivering high-quality
-                    services and exceptional support to our clients. Whether you are implementing SAP for the first time or seeking to
-                    enhance your existing authorization setup, we are dedicated to helping you achieve a robust and secure SAP authorization
-                    environment.
-                    Partner with us to benefit from our extensive experience, expertise, and commitment to your success. Contact us today to
-                    learn more about how we can assist you with your SAP authorization needs.
-                </p>
-                <img src="assets/images/ceo.jpg" alt="image of the ceo of the company" class="about-item">
+                <div class="about-item about-item-left about-item-top about-item-bottom">
+                    <p>
+                        With over 15 years of experience, we are the leading experts in SAP authorization solutions and
+                        consulting services. Our team has successfully assisted numerous clients, ranging from small
+                        businesses to large corporations, in managing and optimizing their SAP authorization landscapes.
+                        We specialize in providing tailored solutions that ensure secure access control and compliance
+                        with industry standards.
+                    </p>
+                    <p>
+                        Customer satisfaction is our top priority. Over the years, we have built a solid reputation for
+                        delivering high-quality services and exceptional support to our clients. Whether you are
+                        implementing SAP for the first time or seeking to enhance your existing authorization setup, we
+                        are dedicated to helping you achieve a robust and secure SAP authorization environment.
+                    </p>
+                    <p>Partner with us to benefit from our extensive experience, expertise, and commitment to your
+                        success. Contact us today to learn more about how we can assist you with your SAP authorization
+                        needs.</p>
+                </div>
+                <img src="assets/ceo-1st.jpg" alt="image of the ceo of the company"
+                    class="about-item about-item-right about-item-top about-item-bottom">
             </div>
         </section>
 
-     <!--Contact page in the main-->
+        <!--Contact page in the main-->
 
         <section id="contact">
             <h2 class="heading-pages">Contact</h2>

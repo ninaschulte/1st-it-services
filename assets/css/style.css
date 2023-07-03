@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo - At the LOGO you must change it to FLEX style */
+/* headings and logo */
 
 h1,
 h2 {
@@ -26,7 +26,7 @@ h2 {
     font-size: 280%;
 }
 
-/* Navigation using flexbox display */
+/* Navigation - using FLEXBOX */
 
 .menu {
     font-size: 110%;
@@ -37,29 +37,16 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav {
     margin: 15px;
 }
 
-/* Navigation logo */
 .one {
     flex-grow: 1;
     flex-shrink: 1;
-}
-
-/* Navigation for contact, services, about and home */
-.two {
-    flex-grow: 0;
-}
-
-.three {
-    flex-grow: 0;
-}
-
-.four {
-    flex-grow: 0;
 }
 
 .menu a {
@@ -71,7 +58,7 @@ h2 {
     color: #034ea2;
 }
 
-/* hero image style */
+/* hero image */
 
 .hero-outer {
     height: 600px;
@@ -81,87 +68,98 @@ h2 {
     position: relative;
 }
 
-.cover-text,
-.cover-text h2 {
-    color: #034ea2;
-}
-
 .hero-image {
-    background-image: url('../images/45914.jpg');
+    background-image: url('../assets/45914.jpg');
     background-size: cover;
     background-position: center;
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     margin: 0;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.cover-text {
-    font-size: 130%;
-    font-family: Ubuntu, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(243, 244, 244, .7);
-
-    bottom: 180px;
-    right: 150px;
-
-    position: absolute;
+/* transparent background for the text on hero image */
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 7px;
 }
 
-/* Service page */
+/* navigation bar fixed on top of the page */
+ 
+
+/* Services page - using GRIDBOX */
 
 .services-container {
     background-color: #f0f0f0;
-    padding-top: 30px;
-    margin: 0 auto;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-.row {
-    width: 70%;
-    height: 500px;
-    margin: 0 auto;
+.service-container-item {
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-.item {
-    margin: 30px;
+.item-left {
+    margin-left: 20%;
 }
 
-/* About page */
+.item-right {
+    margin-right: 20%;
+}
+
+.item-top {
+    margin-top: 15%;
+}
+
+.item-bottom {
+    margin-bottom: 15%;
+}
+
+/* About page -using FLEXBOX */
 
 .about-container {
     background-color: #f0f0f0;
-    padding-top: 30px;
-    margin: 0 auto;
 
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .about-item {
-    width: 70%;
-    height: 500px;
-    margin: 0 auto;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-/* Contact page */
+.about-item-bottom {
+    margin-bottom: 7%;
+}
+
+.about-item-top {
+    margin-top: 7%;
+}
+
+.about-item-left {
+    margin-left: 10%;
+}
+
+.about-item-right {
+    margin-left: 10%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact page - using FLEXBOX*/
 
 .contact-container {
     background-color: #f0f0f0;
@@ -188,21 +186,20 @@ input[type=submit] {
 }
 
 input[type=text],
-input[type=email], {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-    margin: 0 auto;
+input[type=email]
+{
+height: 30px;
+width: 90%;
+padding-left: 10px;
+margin: 0 auto;
 }
 
 /* heading pages */
 
 .heading-pages {
     text-align: center;
-    margin: 20px 0;
-    font-size: 280%; 
+    margin: 25px 0;
+    font-size: 280%;
 }
-
-
 
  
