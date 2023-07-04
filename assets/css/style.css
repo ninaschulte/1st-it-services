@@ -29,59 +29,55 @@ h3 {
     font-family: Ubuntu, sans-serif;
 }
 
-#logo-size {
-    width: 90px;
+/* Navigation using FLEXBOX */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
 }
 
 .logo {
-    float: left;
-    width: 100%;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin: 0 0 0 .45em;
+    color: #333333;
+    font-size: 280%;
 }
 
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu,
-#logo-size {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
+#logo {
     text-decoration: none;
-    color: inherit;
 }
 
-#menu a:hover {
+.logo a {
+    color: #333333;
+}
+
+.logo,
+.menu {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.logo a,
+.menu a {
+    text-decoration: none;
+    letter-spacing: .45rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    padding: 1em;
+    color: #333333;
+}
+
+.menu a:hover {
     color: #034ea2;
 }
-
-.active {
-    color: #034ea2;
-}
-
-/* Header fixed 
-
-.header-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: white;
-    z-index: 1;
-}*/
 
 /* hero image */
 
