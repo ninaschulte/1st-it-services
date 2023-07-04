@@ -209,8 +209,23 @@ h3 {
     margin-left: 10%;
 }
 
-.img {
-    max-width: 100%;
+hr {
+    padding: 8px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+/* Size of the image for CEO */
+
+#size-ceo {
+    width: 180%;
+    margin-right: 13%;
+}
+
+img {
+    width: 100%;
     height: auto;
 }
 
