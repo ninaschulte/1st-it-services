@@ -28,45 +28,51 @@ h3 {
     font-family: Ubuntu, sans-serif;
 }
 
+#logo-size {
+    width: 90px;
+}
+
 .logo {
-    font-size: 280%;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
-/* Navigation - using FLEXBOX */
+/* navigation links */
 
-.menu {
+#menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo-size {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
     list-style-type: none;
-    background-color: white;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-right: 30px;
 }
 
-.nav {
-    margin: 15px;
-}
-
-.one {
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-.menu a {
+#menu a {
     text-decoration: none;
     color: inherit;
 }
 
-.menu a:hover {
+#menu a:hover {
     color: #034ea2;
 }
 
 .active {
-    color: #3a3a3a;
+    color: #034ea2;
 }
+
+/* border-bottom: 1px solid #3a3a3a;*/
 
 /* hero image */
 
@@ -99,7 +105,7 @@ h3 {
 }
 
 /* navigation bar fixed on top of the page */
- 
+
 
 /* Services page - using GRIDBOX */
 
@@ -269,5 +275,3 @@ textarea {
 #rights-reserved {
     color: white;
 }
-
- 
