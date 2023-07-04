@@ -9,7 +9,7 @@
 body {
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #252525;
 }
 
 /* headings and logo */
@@ -35,6 +35,7 @@ h3 {
     align-items: center;
     background: white;
     padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .logo {
@@ -307,6 +308,21 @@ textarea {
     cursor: pointer;
 }
 
+/* Responsive layout for contact page - tablets */
+@media all and (max-width: 990px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout for contact page - mobile devices */
+
+@media all and (max-width: 600px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
 /* h1 and h3 pages inside pages for contact section, about and services */
 
 .heading-pages {
@@ -356,5 +372,12 @@ textarea {
 #rights-reserved {
     color: white;
     padding: 1em;
+}
+
+/* Thank you and legal page*/
+
+.legal-text {
+    background-color: #f0f0f0;
+    padding: 40px;
 }
 
