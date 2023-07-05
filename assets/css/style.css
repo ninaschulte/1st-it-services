@@ -142,40 +142,52 @@ h3 {
     padding: 7px;
 }
 
+/* Services page - using flexbox */
 
-/* Services page - using GRIDBOX */
-
-.services-container {
+.services-container-two {
+    display: flex;
+    flex-direction: row;
     background-color: #f0f0f0;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 
-.service-container-item {
+#services-top-right {
+    margin-left: 3.5rem;
+}
+
+.services-item {
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
-.item-left {
-    margin-left: 20%;
+.services-item-bottom {
+    margin-bottom: 7%;
 }
 
-.item-right {
-    margin-right: 20%;
+.services-item-top {
+    margin-top: 7%;
 }
 
-.item-top {
-    margin-top: 15%;
+.services-item-left {
+    margin-left: 10%;
 }
 
-.item-bottom {
-    margin-bottom: 15%;
+.services-item-right {
+    margin-right: 10%;
 }
 
-.category {
-    margin-bottom: 1rem;
+/* Responsive layout for services page - tablets */
+@media all and (max-width: 990px) {
+    .services-container-two {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout services page - mobile devices */
+
+@media all and (max-width: 600px) {
+    .about-contaiener-two {
+        flex-direction: column;
+    }
 }
 
 /* About page -using FLEXBOX */
