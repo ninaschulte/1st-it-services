@@ -60,6 +60,10 @@ This is B2B business. Company is offering services for small, large business or 
 <h1>Design</h1>
 <h3>Inspiration</h3>
 <p>I took inspiration for the page from this page https://www.institut-vz.si/</p>
+<h3>Wireframe</h3>
+<p>The idea for the page was to create onepager. When user click on any of the menu item, user is scroll down to this page. The last wireframe just show how it will look like when user will scroll on the bottom of the page. Note that end design got changed a bit - map is moved above contact form because of visual reasons - looks nicer.</p>
+<img width="1059" alt="Screenshot 2023-07-06 at 11 25 18" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/6cf90b1b-ffbb-423b-818b-92f763fba012">
+
 <h3>Color palette</h3>
 <p>Colour palette is taken from the company current visual identity</p>
 <img width="1137" alt="Screenshot 2023-07-06 at 11 17 03" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/b8e7f36c-9e85-4313-8513-07e421a2c46f">
