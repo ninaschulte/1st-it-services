@@ -80,6 +80,8 @@ This is B2B business. Company is offering services for small, large business or 
 <p>How to fix the nav position I found on this forum resource for this https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox</p>
 <h3>Hero image</h3>
 <p>For hero image CSS I used styling from "Love Running project"</p>
+<h3>Pages</h3>
+All pages are styled with Flexbox and used the knowledge from these tutorials https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1
 <h3>Footer</h3>
 <p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
 <h1>Testing</h1>
@@ -172,6 +174,30 @@ This is B2B business. Company is offering services for small, large business or 
       <td>Unhappy path: user type correct email address and message and tap on "Submit" CTA</td>
       <td>Error message appears that name is mandatory field.</td>
        <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#13</td>
+      <td>User hover over menu items</td>
+      <td>Menu items change colour - only text</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+  <tr>
+      <td>#14</td>
+      <td>User click on legal page in footer</td>
+      <td>Open new page with long text. Menu on top and footer on the bottom of the screen</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+     <tr>
+      <td>#15</td>
+      <td>User click on legal page in footer</td>
+      <td>Open new page with long text. Menu on top and footer on the bottom of the screen</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#15</td>
+      <td>User click on Xing link in footer</td>
+      <td>Open new page in new tap and land on Xing company page.</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
     </tr>
   </tbody>
 </table>
