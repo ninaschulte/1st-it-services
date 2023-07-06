@@ -59,6 +59,8 @@ This is B2B business. Company is offering services for small, large business or 
 
 <h1>Design</h1>
 <h3>Color palette</h3>
+<img width="1140" alt="Screenshot 2023-07-06 at 11 16 05" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/31984337-f216-422d-9fd6-b78dc51970e9">
+
 <p>![color](https://github.com/ninaschulte/1st-it-services/assets/136459773/3b9b1601-1ade-4ff9-9511-47ce549590a9)</p>! - add visuals[color]
 <h3>Typography</h3>
 <p>Ubuntu - add some visuals</p>
