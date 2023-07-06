@@ -58,15 +58,16 @@ This is B2B business. Company is offering services for small, large business or 
 </table>
 
 <h1>Design</h1>
-<h3>Color palette</h3>
-<img width="1140" alt="Screenshot 2023-07-06 at 11 16 05" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/31984337-f216-422d-9fd6-b78dc51970e9">
-
-<p>![color](https://github.com/ninaschulte/1st-it-services/assets/136459773/3b9b1601-1ade-4ff9-9511-47ce549590a9)</p>! - add visuals[color]
-<h3>Typography</h3>
-<p>Ubuntu - add some visuals</p>
-<h1>Code source</h1>
 <h3>Inspiration</h3>
 <p>I took inspiration for the page from this page https://www.institut-vz.si/</p>
+<h3>Color palette</h3>
+<p>Colour palette is taken from the company current visual identity</p>
+<img width="1137" alt="Screenshot 2023-07-06 at 11 17 03" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/b8e7f36c-9e85-4313-8513-07e421a2c46f">
+<h3>Typography</h3>
+<p>Typography is taken from the company currenty typography. Used for headings and parahraphs</p>
+<img width="1035" alt="Screenshot 2023-07-06 at 11 20 56" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/11e98f16-ab0d-4862-b22b-1194ede4675f">
+
+<h1>Code source</h1>
 <h3>Image source</h3>
 <p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
 <p>IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero</p>
