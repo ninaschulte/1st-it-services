@@ -194,7 +194,7 @@ All pages are styled with Flexbox and used the knowledge from these tutorials ht
       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
     </tr>
     <tr>
-      <td>#15</td>
+      <td>#16</td>
       <td>User click on Xing link in footer</td>
       <td>Open new page in new tap and land on Xing company page.</td>
       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
