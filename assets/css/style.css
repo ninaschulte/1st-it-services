@@ -47,7 +47,7 @@ h3 {
 #services,
 #about,
 #contact,
-#home {
+#home, .legal, .thankyou {
     padding-top: 90px;
 }
 
