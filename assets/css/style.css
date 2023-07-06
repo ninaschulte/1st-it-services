@@ -13,7 +13,6 @@ body {
 }
 
 /* headings and logo */
-
 h2, h1 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
@@ -28,7 +27,6 @@ h3 {
 }
 
 /* Navigation using FLEXBOX and also style for fix navigation position on top of the page */
-
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -36,7 +34,6 @@ h3 {
     background: #F3F4F4;
     padding: 20px;
     border-bottom: 1px solid #f0f0f0;
-
     top: 0;
     left: 0;
     right: 0;
@@ -91,49 +88,15 @@ h3 {
     color: #034ea2;
 }
 
-/* Responsive layout for header - tablets */
-@media all and (max-width: 990px) {
-    .nav-container {
-        flex-direction: column;
-    }
-
-        #services,
-        #about,
-        #contact,
-        #home {
-            padding-top: 140px;
-        }
-    
-    .logo {
-        margin: 0;
-    }
-
-    .menu {
-        width: 100%;
-        justify-content: space-around;
-    }
-}
-
-/* Responsive layout header - mobile devices */
-
-@media all and (max-width: 600px) {
-    .logo {
-        margin: .25em 0;
-        align-self: left;
-    }
-
-    .menu {
-        flex-direction: column;
-    }
+.menu a:active {
+    color: #034ea2;
 }
 
 /* hero image */
-
 .hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -144,7 +107,6 @@ h3 {
     width: 100vw;
     height: 100vh;
     margin: 0;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,7 +120,6 @@ h3 {
 }
 
 /* Services page - using flexbox */
-
 .services-container-two {
     display: flex;
     flex-direction: row;
@@ -190,26 +151,9 @@ h3 {
     margin-right: 10%;
 }
 
-/* Responsive layout for services page - tablets */
-@media all and (max-width: 990px) {
-    .services-container-two {
-        flex-direction: column;
-    }
-}
-
-/* Responsive layout services page - mobile devices */
-
-@media all and (max-width: 600px) {
-    .about-contaiener-two {
-        flex-direction: column;
-    }
-}
-
 /* About page -using FLEXBOX */
-
 .about-container {
     background-color: #f3f3f3;
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -246,7 +190,6 @@ p {
 }
 
 /* Size of the image for CEO */
-
 #size-ceo {
     width: 1500px;
     margin-right: 13%;
@@ -256,31 +199,6 @@ img {
     width: 100%;
     height: auto;
 }
-
-/* Responsive layout for about page - tablets */
-@media all and (max-width: 990px) {
-    .about-container {
-        flex-direction: column;
-    }
-
-    #size-ceo {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/* Responsive layout about page - mobile devices */
-
-@media all and (max-width: 600px) {
-    .about.container {
-        flex-direction: column;
-    }
-          #size-ceo {
-              width: 100%;
-              height: auto;
-          }
-}
-
 
 /* Contact page - using FLEXBOX*/
 .contact-container {
@@ -335,23 +253,7 @@ textarea {
     cursor: pointer;
 }
 
-/* Responsive layout for contact page - tablets */
-@media all and (max-width: 990px) {
-    .contact-container {
-        flex-direction: column;
-    }
-}
-
-/* Responsive layout for contact page - mobile devices */
-
-@media all and (max-width: 600px) {
-    .contact-container {
-        flex-direction: column;
-    }
-}
-
 /* h1 and h3 pages inside pages for contact section, about and services */
-
 .heading-pages {
     text-align: center;
     margin: 25px 0;
@@ -365,16 +267,13 @@ textarea {
 }
 
 /* Footer */
-
 .footer-container {
     background-color: #a6a8ab;
     width: 100%;
     margin-top: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .footer-item {
@@ -404,12 +303,79 @@ textarea {
 }
 
 /* Thank you and legal page*/
-
 .legal-text {
     background-color: #f3f3f3;
     padding: 40px;
 }
 
+/* Responsive layout for header - tablets */
+@media all and (max-width: 990px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    #services,
+    #about,
+    #contact,
+    #home {
+        padding-top: 140px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .contact-container {
+             flex-direction: column;
+         }
+
+    .about-container {
+            flex-direction: column;
+        }
+    
+    #size-ceo {
+            width: 100%;
+            height: auto;
+        }
+    
+    .about-contaiener-two {
+             flex-direction: column;
+         }
+}
+
+/* Responsive layout header - mobile devices */
+@media all and (max-width: 600px) {
+    .logo {
+        margin: .25em 0;
+        align-self: left;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+    
+    .contact-container {
+            flex-direction: column;
+    }
+    
+    .about.container {
+            flex-direction: column;
+    }
+    
+    #size-ceo {
+            width: 100%;
+            height: auto;
+    }
+
+    .services-container-two {
+            flex-direction: column;
+        }
+}
 
 
 
