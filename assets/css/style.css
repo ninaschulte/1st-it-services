@@ -27,13 +27,13 @@ h3 {
     font-family: Ubuntu, sans-serif;
 }
 
-/* Navigation using FLEXBOX */
+/* Navigation using FLEXBOX and also style for fix navigation position on top of the page */
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: #F3F4F4;
     padding: 20px;
     border-bottom: 1px solid #f0f0f0;
 
@@ -53,7 +53,7 @@ h3 {
 
 .logo {
     margin: 0 0 0 .45em;
-    color: #333333;
+    color: #A2A3A6;
     font-size: 280%;
 }
 
@@ -162,7 +162,7 @@ h3 {
 .services-container-two {
     display: flex;
     flex-direction: row;
-    background-color: #f0f0f0;
+    background-color: #f3f3f3;
 }
 
 #services-top-right {
@@ -208,7 +208,7 @@ h3 {
 /* About page -using FLEXBOX */
 
 .about-container {
-    background-color: #f0f0f0;
+    background-color: #f3f3f3;
 
     display: flex;
     flex-direction: row;
@@ -301,7 +301,7 @@ input[type=text] {
     width: 85%;
     padding: 12px 20px;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #f3f3f3;
     border: 1px solid #ccc;
 }
 
@@ -309,7 +309,7 @@ input[type=email] {
     width: 85%;
     padding: 12px 20px;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #f3f3f3;
     border: 1px solid #ccc;
 }
 
@@ -320,7 +320,7 @@ textarea {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #f3f3f3;
     resize: none;
 }
 
@@ -356,6 +356,7 @@ textarea {
     text-align: center;
     margin: 25px 0;
     font-size: 280%;
+    color: #7A94C4;
 }
 
 .category {
@@ -404,7 +405,7 @@ textarea {
 /* Thank you and legal page*/
 
 .legal-text {
-    background-color: #f0f0f0;
+    background-color: #f3f3f3;
     padding: 40px;
 }
 
