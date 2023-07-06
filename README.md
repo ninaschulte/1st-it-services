@@ -58,14 +58,115 @@ This is B2B business. Company is offering services for small, large business or 
 </table>
 
 <h1>Design</h1>
-
-<h2>Color palette</h2>
-![color](https://github.com/ninaschulte/1st-it-services/assets/136459773/3b9b1601-1ade-4ff9-9511-47ce549590a9)
-
-<h2>Hero image</h2>
-hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero
-
-<h2>Image of the CEO</h2>
-ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/
+<h3>Color palette</h3>
+<p>![color](https://github.com/ninaschulte/1st-it-services/assets/136459773/3b9b1601-1ade-4ff9-9511-47ce549590a9)</p>! - add visuals[color]
+<h3>Typography</h3>
+<p>Ubuntu - add some visuals</p>
+<h1>Code source</h1>
+<h3>Inspiration</h3>
+<p>I took inspiration for the page from this page https://www.institut-vz.si/</p>
+<h3>Image source</h3>
+<p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
+<p>IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero</p>
+<h3>Navigation</h3>
+<p>For navigation I reuse the code that I found here https://codepen.io/tedib/pen/mdypQbg.</p>
+<p>How to fix the nav position I found on this forum resource for this https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox</p>
+<h3>Hero image</h3>
+<p>For hero image CSS I used styling from "Love Running project"</p>
+<h3>Footer</h3>
+<p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
+<h1>Testing</h1>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>User Action</th>
+      <th>Expected Result</th>
+      <th>Test Executed on desktop, tablet and mobile device</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1</td>
+      <td>Click on logo</td>
+      <td>Page reload and land on the landing page</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>Click on "Home" in the menu</td>
+      <td>Page reload and land on the landing page</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>Click on "Services" in the menu</td>
+      <td>Scroll down to "Services" page.</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Click on "About"</td>
+      <td>Scroll down to "About" page</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <tr>
+      <td>#5</td>
+      <td>Click on "Contact"</td>
+      <td>Scroll down to "Contact" page</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    </tr>
+    <tr>
+       <td>#6</td>
+      <td>Click on plus and minus on the map</td>
+      <td>Map zoom in and zoom out</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+       <td>#7</td>
+      <td>Click on "Your name" input field.</td>
+      <td>Input field get active, user can start typing</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#8</td>
+      <td>Click on "Email" input field</td>
+      <td>Input field get active, user can start typing</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+    <tr>
+      <td>#9</td>
+      <td>Click on "Message" textarea field</td>
+      <td>Textarea get active, user can start typing</td>
+      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+     <tr>
+      <td>#9</td>
+      <td>User type name, email address and message in textarea and click on "Submit" CTA</td>
+      <td>User is let to thank you page.</td>
+       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+     <tr>
+      <td>#10</td>
+      <td>Happy path: User type name in the input field, email address in the input field and message in textarea and click on "Submit" CTA</td>
+      <td>User is let to thank you page.</td>
+       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+   <tr>
+      <td>#11</td>
+      <td>Unhappy path: user type invalid email address and tap on "Submit" CTA</td>
+      <td>Error message appears stating @ is missing.</td>
+     <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+     <tr>
+      <td>#12</td>
+      <td>Unhappy path: user type correct email address and message and tap on "Submit" CTA</td>
+      <td>Error message appears that name is mandatory field.</td>
+       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
+    </tr>
+  </tbody>
+</table>
 
 
