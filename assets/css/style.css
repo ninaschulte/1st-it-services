@@ -93,7 +93,7 @@ h3 {
 }
 
 /* hero image */
-.hero-outer {
+.hero-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -120,6 +120,13 @@ h3 {
 }
 
 /* Services page - using flexbox */
+.services-container-one {
+    margin: 0 auto;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+}
+
 .services-container-two {
     display: flex;
     flex-direction: row;
