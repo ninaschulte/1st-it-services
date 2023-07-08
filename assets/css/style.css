@@ -44,7 +44,7 @@ h3 {
 #services,
 #about,
 #contact,
-#home, .legal, .thankyou {
+#home, #new-page {
     padding-top: 90px;
 }
 
@@ -290,9 +290,25 @@ textarea {
 }
 
 /* Thank you and legal page*/
-.legal-text {
+.body-page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.body-page .legal-text {
+    background-color: #f3f3f3;
+    padding: 7% 10%;
+}
+
+/*
+body .legal-text {
     background-color: #f3f3f3;
     padding: 40px;
+}*/
+
+.main-page {
+    flex: 1 0 auto;
 }
 
 /* Responsive layout for header - tablets */
@@ -326,7 +342,7 @@ textarea {
         }
     
     #size-ceo {
-            width: 100%;
+            width: 90%;
             height: auto;
         }
     
@@ -356,7 +372,7 @@ textarea {
     }
     
     #size-ceo {
-            width: 100%;
+            width: 90%;
             height: auto;
     }
     
