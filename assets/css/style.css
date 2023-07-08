@@ -250,7 +250,7 @@ textarea {
 }
 
 #button {
-    background-color: #034ea2;
+    background-color: #7A94C4;
     border: none;
     border-radius: 4px;
     color: white;
@@ -258,6 +258,10 @@ textarea {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#button:hover {
+    background-color: #034ea2;
 }
 
 /* h1 and h3 pages inside pages for contact section, about and services */
@@ -300,7 +304,7 @@ textarea {
     color: white;
 }
 
-#legal a:hover {
+#legal:hover {
     color: #034ea2;
 }
 
