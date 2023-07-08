@@ -210,11 +210,11 @@ img {
 /* Contact page - using FLEXBOX*/
 .contact-container {
     background-color: white;
-    padding-top: 1rem;
-
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .contact-item {
