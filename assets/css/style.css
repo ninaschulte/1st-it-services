@@ -292,6 +292,10 @@ textarea {
     padding: 1em;
 }
 
+#rights-reserved a {
+    color: white;
+}
+
 /* Thank you and legal page*/
 .body-page {
     display: flex;
@@ -303,12 +307,6 @@ textarea {
     background-color: #f3f3f3;
     padding: 7% 10%;
 }
-
-/*
-body .legal-text {
-    background-color: #f3f3f3;
-    padding: 40px;
-}*/
 
 .main-page {
     flex: 1 0 auto;
