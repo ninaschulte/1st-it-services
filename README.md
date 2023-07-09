@@ -71,6 +71,9 @@ This is B2B business. Company is offering services for small, large business or 
 <p>Typography is taken from the company currenty typography. Used for headings and parahraphs</p>
 <img width="1035" alt="Screenshot 2023-07-06 at 11 20 56" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/11e98f16-ab0d-4862-b22b-1194ede4675f">
 
+<h1>Feature</h1>
+Add here all features and couple of lines what each feature does.
+
 <h1>Code source</h1>
 <h3>Image source</h3>
 <p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
