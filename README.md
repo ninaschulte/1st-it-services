@@ -74,19 +74,6 @@ This is B2B business. Company is offering services for small, large business or 
 <h1>Feature</h1>
 Add here all features and couple of lines what each feature does.
 
-<h1>Code source</h1>
-<h3>Image source</h3>
-<p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
-<p>IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero</p>
-<h3>Navigation</h3>
-<p>For navigation I reuse the code that I found here https://codepen.io/tedib/pen/mdypQbg.</p>
-<p>How to fix the nav position I found on this forum resource for this https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox</p>
-<h3>Hero image</h3>
-<p>For hero image CSS I used styling from "Love Running project"</p>
-<h3>Pages</h3>
-All pages are styled with Flexbox and used the knowledge from these tutorials https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1
-<h3>Footer</h3>
-<p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
 <h1>Testing</h1>
 <table>
   <thead>
@@ -205,4 +192,16 @@ All pages are styled with Flexbox and used the knowledge from these tutorials ht
   </tbody>
 </table>
 
-
+<h1>Credits</h1>
+<h3>Image source</h3>
+<p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
+<p>IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero</p>
+<h3>Navigation</h3>
+<p>For navigation I reuse the code that I found here https://codepen.io/tedib/pen/mdypQbg.</p>
+<p>How to fix the nav position I found on this forum resource for this https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox</p>
+<h3>Hero image</h3>
+<p>For hero image CSS I used styling from "Love Running project"</p>
+<h3>Pages</h3>
+All pages are styled with Flexbox and used the knowledge from these tutorials https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1
+<h3>Footer</h3>
+<p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
