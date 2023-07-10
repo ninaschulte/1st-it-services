@@ -51,7 +51,7 @@ h3 {
 
 .logo {
     margin: 0 0 0 .45em;
-    color: #A2A3A6;
+    color: #252525;
     font-size: 280%;
 }
 
@@ -284,6 +284,10 @@ textarea {
 }
 
 #legal {
+    color: white;
+}
+
+#ninaschulte {
     color: white;
 }
 
