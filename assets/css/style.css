@@ -13,6 +13,10 @@ body {
     max-width: 1600px;
 }
 
+section {
+    width: 100%;
+}
+
 /* headings and logo */
 h2, h1 {
     font-family: Ubuntu, sans-serif;
@@ -187,6 +191,11 @@ img {
     display: block;
     object-fit: contain;
     object-position: top;
+}
+
+/* Google maps style*/
+iframe {
+    width: 100%;
 }
 
 /* Contact page - using FLEXBOX*/
