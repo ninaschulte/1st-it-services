@@ -10,6 +10,7 @@ body {
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
     color: #252525;
+    max-width: 1600px;
 }
 
 /* headings and logo */
@@ -177,7 +178,7 @@ p {
 /* Size of the image for CEO */
 #size-ceo {
     width: 1500px;
-    margin-right: 13%;
+    padding-right: 13%;
 }
 
 img {
