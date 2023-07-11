@@ -12,6 +12,7 @@ body {
     color: #252525;
     width: 100%;
     margin: 0px;
+    padding: 0px;
 }
 
 section {
@@ -138,6 +139,11 @@ html {
 }
 
 /* Services page - using flexbox */
+section .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,7 +159,16 @@ html {
     text-align: left;
 }
 
+.services-container ul {
+    margin-left: -1em;
+}
+
 /* About page -using FLEXBOX */
+section .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .about-container {
     background-color: #f3f3f3;
     display: flex;
@@ -216,6 +231,11 @@ iframe {
 }
 
 /* Contact page - using FLEXBOX*/
+section .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .contact-container {
     background-color: white;
     padding-top: 2rem;
