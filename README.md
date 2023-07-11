@@ -42,128 +42,33 @@ HTML - no errors were retured when passing through the official W3C validator.
 CSS - no errors were retured when passing through the official (Jigsaw) validator.
 Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.
 ### Manual testing
-      <th>ID</th>
-      <th>User Action</th>
-      <th>Expected Result</th>
-      <th>Test Executed on desktop, tablet and mobile device</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>#1</td>
-      <td>Click on logo</td>
-      <td>Page reload and land on the landing page</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#2</td>
-      <td>Click on "Home" in the menu</td>
-      <td>Page reload and land on the landing page</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#3</td>
-      <td>Click on "Services" in the menu</td>
-      <td>Scroll down to "Services" page.</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#4</td>
-      <td>Click on "About"</td>
-      <td>Scroll down to "About" page</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <tr>
-      <td>#5</td>
-      <td>Click on "Contact"</td>
-      <td>Scroll down to "Contact" page</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    </tr>
-    <tr>
-       <td>#6</td>
-      <td>Click on plus and minus on the map</td>
-      <td>Map zoom in and zoom out</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-       <td>#7</td>
-      <td>Click on "Your name" input field.</td>
-      <td>Input field get active, user can start typing</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#8</td>
-      <td>Click on "Email" input field</td>
-      <td>Input field get active, user can start typing</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#9</td>
-      <td>Click on "Message" textarea field</td>
-      <td>Textarea get active, user can start typing</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-     <tr>
-      <td>#9</td>
-      <td>User type name, email address and message in textarea and click on "Submit" CTA</td>
-      <td>User is let to thank you page.</td>
-       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-     <tr>
-      <td>#10</td>
-      <td>Happy path: User type name in the input field, email address in the input field and message in textarea and click on "Submit" CTA</td>
-      <td>User is let to thank you page.</td>
-       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-   <tr>
-      <td>#11</td>
-      <td>Unhappy path: user type invalid email address and tap on "Submit" CTA</td>
-      <td>Error message appears stating @ is missing.</td>
-     <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-     <tr>
-      <td>#12</td>
-      <td>Unhappy path: user type correct email address and message and tap on "Submit" CTA</td>
-      <td>Error message appears that name is mandatory field.</td>
-       <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#13</td>
-      <td>User hover over menu items</td>
-      <td>Menu items change colour - only text</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-  <tr>
-      <td>#14</td>
-      <td>User click on legal page in footer</td>
-      <td>Open new page with long text. Menu on top and footer on the bottom of the screen</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-     <tr>
-      <td>#15</td>
-      <td>User click on legal page in footer</td>
-      <td>Open new page with long text. Menu on top and footer on the bottom of the screen</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-    <tr>
-      <td>#16</td>
-      <td>User click on Xing link in footer</td>
-      <td>Open new page in new tap and land on Xing company page.</td>
-      <td>Desktop: Y/N, Tablet: Y/N, Mobile: Y/N</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1>Credits</h1>
-<h3>Image source</h3>
-<p>Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/</p>
-<p>IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero</p>
-<h3>Navigation</h3>
-<p>For navigation I reuse the code that I found here https://codepen.io/tedib/pen/mdypQbg.</p>
-<p>How to fix the nav position I found on this forum resource for this https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox</p>
-<h3>Hero image</h3>
+| ID | User Action | Expected Result | Test Executed on desktop, tablet and mobile device |
+|----|-------------|----------------|---------------------------------------------------|
+| #1 | Click on logo | Page reload and land on the landing page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #2 | Click on "Home" in the menu | Page reload and land on the landing page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #3 | Click on "Services" in the menu | Scroll down to "Services" page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #4 | Click on "About" | Scroll down to "About" page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #5 | Click on "Contact" | Scroll down to "Contact" page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #6 | Click on plus and minus on the map | Map zoom in and zoom out | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #7 | Click on "Your name" input field. | Input field get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #8 | Click on "Email" input field | Input field get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #9 | Click on "Message" textarea field | Textarea get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #9 | User type name, email address and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #10 | Happy path: User type name in the input field, email address in the input field and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #11 | Unhappy path: user type invalid email address and tap on "Submit" CTA | Error message appears stating @ is missing. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #12 | Unhappy path: user type correct email address and message and tap on "Submit" CTA | Error message appears that name is mandatory field. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #13 | User hover over menu items | Menu items change colour - only text | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #14 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #15 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #16 | User click on Xing link in footer | Open new page in new tab and land on Xing company page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+## Credits
+### Image source
+Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/
+IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero
+### Navigation
+For navigation I reuse the code that I found [here](https://codepen.io/tedib/pen/mdypQbg).
+How to fix the nav position I found on this forum resource [here](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox).
+### Main Hero image
 <p>For hero image CSS I used styling from "Love Running project"</p>
 <h3>Pages</h3>
 All pages are styled with Flexbox and used the knowledge from these tutorials https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1
