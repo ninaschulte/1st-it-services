@@ -413,6 +413,8 @@ section .legal-text {
     .menu {
         width: 100%;
         justify-content: space-around;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     
     .contact-container {
@@ -468,6 +470,8 @@ section .legal-text {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     
     .contact-container {
