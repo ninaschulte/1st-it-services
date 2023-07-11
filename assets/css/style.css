@@ -15,6 +15,9 @@ body {
 
 section {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* headings and logo */
@@ -146,6 +149,7 @@ html {
 .services-container .services-item {
     padding: 0.5rem;
     margin: 0.5rem;
+    text-align: left;
 }
 
 /* About page -using FLEXBOX */
@@ -159,6 +163,10 @@ html {
 .about-item {
     padding: 0.5rem;
     margin: 0.5rem;
+}
+
+.about-container .about-item {
+    text-align: left;
 }
 
 .about-item-bottom {
@@ -213,6 +221,10 @@ iframe {
     align-items: center;
     justify-content: center;
     padding-bottom: 2rem;
+}
+
+.contact-container .contact-item {
+    text-align: left;
 }
 
 .contact-item {
