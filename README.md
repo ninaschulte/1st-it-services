@@ -38,19 +38,19 @@ The navigation section of this project consists of a logo positioned on the far 
 ### Main
 #### Services
 Services page shows to the user all services that company provide. All services are clustered into four sections for easy scanning. 
-![services](documentation/services.png)
+![services](documentation/services-final.png)
 #### About
 About page is introduction page of the company to the user. User can read more about the company and can view also the CEO of the company.
-![about](documentation/about.png)
+![about](documentation/about-final.png)
 #### Contact
 Contact section show google maps and contact information with the contact form. User is enabled here to contact the company.
-![contact](documentation/contact.png)
+![contact](documentation/contact-final.png)
 ##### Map
 User is abel to zoom in and out and view directly on the map how far is the company.
 ![map](documentation/map.png)
 ##### Contact Form
 User is able to contact the company easy way with just filling up the contact form.
-![contact form](documentation/contactform.png)
+![contact form](documentation/contactform-final.png)
 ##### Contact Information
 User is able to see here all the company information.
 ![navigation](documentation/contactinformation.png)
