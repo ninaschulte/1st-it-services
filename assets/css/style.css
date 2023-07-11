@@ -442,6 +442,11 @@ section .legal-text {
             margin: 0 auto;
             padding-bottom: 10%;
         }
+
+    section .legal-text {
+            margin: 0 auto;
+            text-align: left;
+        }
 }
 
 /* Responsive layout header - mobile devices */
@@ -506,6 +511,15 @@ section .legal-text {
 
     header {
         font-size: 65%;
+    }
+
+    #heading-page {
+        padding-top: 120px;
+    }
+
+    section .legal-text {
+         margin: 0 auto;
+         text-align: left;
     }
 }
 
