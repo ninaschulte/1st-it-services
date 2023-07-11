@@ -49,9 +49,9 @@ h3 {
     right: 0;
     position: fixed;
     z-index: 200;
-    box-shadow: -1px 1px 5px -1px rgba(240, 240, 240, 0.89);
-        -webkit-box-shadow: -1px 1px 5px -1px rgba(240, 240, 240, 0.89);
-        -moz-box-shadow: -1px 1px 5px -1px rgba(240, 240, 240, 0.89);
+    box-shadow: -2px 11px 10px -5px rgba(51, 51, 51, 0.56);
+        -webkit-box-shadow: -2px 11px 10px -5px rgba(51, 51, 51, 0.56);
+        -moz-box-shadow: -2px 11px 10px -5px rgba(51, 51, 51, 0.56);
 }
 
 #services,
