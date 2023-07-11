@@ -395,6 +395,10 @@ section .legal-text {
         flex-direction: column;
     }
 
+    #logo {
+        padding-left: 0;
+    }
+
     #services,
     #about,
     #contact,
@@ -454,6 +458,10 @@ section .legal-text {
     .logo {
         margin: .25em 0;
         align-self: left;
+    }
+
+    #logo {
+        padding-left: 0;
     }
 
     .menu {
