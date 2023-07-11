@@ -29,14 +29,33 @@ Colour palette is taken from the company current visual identity.
 Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
 ## Features
 ### Navigation
+The navigation section of this project consists of a logo positioned on the far left, accompanied by links to key pages such as "Contact," "About," and "Services." This navigation setup aims to provide users with easy access to essential sections of the website.
+![navigation](documentation/navigation.png)
 ### Main
 #### Services
+Services page shows to the user all services that company provide. All services are clustered into four sections for easy scanning. 
+![services](documentation/services.png)
 #### About
+About page is introduction page of the company to the user. User can read more about the company and can view also the CEO of the company.
+![about](documentation/about.png)
 #### Contact
+Contact section show google maps and contact information with the contact form. User is enabled here to contact the company.
+![contact](documentation/contact.png)
 ##### Map
+User is abel to zoom in and out and view directly on the map how far is the company.
+![map](documentation/map.png)
 ##### Contact Form
+User is able to contact the company easy way with just filling up the contact form.
+![contact form](documentation/contactform.png)
+##### Contact Information
+User is able to see here all the company information.
+![navigation](documentation/contactinformation.png)
 ### Footer
+The footer section of this project includes copyright information, a link to the legal page, and a direct link to the company's official Xing page. It serves as a valuable resource for users, providing essential legal details and facilitating engagement with the company's professional network presence.
+![navigation](documentation/contactinformation.png)
 ### Thank you
+After user submit the form, thank you page is shown to the user, to tell the user that message was received.
+![thank you](documentation/thankyou.png)
 ### Impressum
 ## Testing
 ### Validator testing
