@@ -47,7 +47,6 @@ Contact section show google maps and contact information with the contact form. 
 ![contact](documentation/contact-final.png)
 ##### Map
 User is abel to zoom in and out and view directly on the map how far is the company.
-![map](documentation/map.png)
 ##### Contact Form
 User is able to contact the company easy way with just filling up the contact form.
 ![contact form](documentation/contactform-final.png)
@@ -64,8 +63,12 @@ After user submit the form, thank you page is shown to the user, to tell the use
 ## Testing
 ### Validator testing
 HTML - no errors were retured when passing through the official W3C validator.
+![validator](documentation/html-validator.png)
 CSS - no errors were retured when passing through the official (Jigsaw) validator.
 Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.
+![accessibility](documentation/desktop.png)
+Tests were executed on chrome browser
+![chrome](documentation/chrome.png)
 ### Manual testing
 | ID | User Action | Expected Result | Test Executed on desktop, tablet and mobile device |
 |----|-------------|----------------|---------------------------------------------------|
