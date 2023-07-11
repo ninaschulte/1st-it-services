@@ -10,7 +10,7 @@ body {
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
     color: #252525;
-    max-width: 1600px;
+    width: 100%;
 }
 
 section {
@@ -362,15 +362,21 @@ textarea {
     
     .contact-container {
              flex-direction: column;
+            padding: 0;
+            margin: 0;
          }
 
     .about-container {
             flex-direction: column;
+            padding: 0;
+                margin: 0;
         }
     
     #size-ceo {
             width: 90%;
             height: auto;
+            padding: 0;
+            margin: 0;
         }
     
     .services-container {
@@ -394,20 +400,28 @@ textarea {
     
     .contact-container {
             flex-direction: column;
+            padding: 0;
+            margin: 0;
     }
     
     .about.container {
             flex-direction: column;
+            padding: 0;
+            margin: 0;
     }
     
     #size-ceo {
             width: 90%;
             height: auto;
+            padding: 0;
+            margin: 0;
     }
     
     .services-container {
             grid-template-columns: 1fr;
             grid-template-rows: auto;
+            padding: 0;
+            margin: 0;
     }
 
     #services,
