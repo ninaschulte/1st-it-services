@@ -68,7 +68,7 @@ This is B2B business. Company is offering services for small, large business or 
 <p>Colour palette is taken from the company current visual identity</p>
 <img width="1137" alt="Screenshot 2023-07-06 at 11 17 03" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/b8e7f36c-9e85-4313-8513-07e421a2c46f">
 <h3>Typography</h3>
-<p>Typography is taken from the company currenty typography. Used for headings and parahraphs</p>
+<p>Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
 <img width="1035" alt="Screenshot 2023-07-06 at 11 20 56" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/11e98f16-ab0d-4862-b22b-1194ede4675f">
 
 <h1>Feature</h1>
