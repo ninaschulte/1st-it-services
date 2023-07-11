@@ -308,6 +308,14 @@ textarea {
     color: white;
 }
 
+#ninaschulte:hover {
+    color: #034ea2;
+}
+
+#xing:hover i {
+    color: #034ea2;
+}
+
 #legal:hover {
     color: #034ea2;
 }
