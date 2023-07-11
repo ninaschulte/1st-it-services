@@ -69,8 +69,8 @@ IMage of a hero image take from hero image was taken from: https://www.freepik.c
 For navigation I reuse the code that I found [here](https://codepen.io/tedib/pen/mdypQbg).
 How to fix the nav position I found on this forum resource [here](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox).
 ### Main Hero image
-<p>For hero image CSS I used styling from "Love Running project"</p>
-<h3>Pages</h3>
-All pages are styled with Flexbox and used the knowledge from these tutorials https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1
+For hero image CSS I used styling from "Love Running project"
+### Pages
+All pages are styled with Flexbox by [Kevin Powell]([https://www.youtube.com/c/KevinPowell](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3))
 <h3>Footer</h3>
 <p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
