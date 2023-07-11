@@ -6,16 +6,18 @@ The main goal of this website is to provide future clients with information abou
 ### Target
 This is B2B business. Company is offering services for small, large business or big corporations. 
 ## User stories
-1. As a first-time user, I want to be able to easily navigate through the website, so that I can find the content.
-2. As a user, I want to know how to navigate through the page, so that I can easily explore the website.
-3. As a user, I want to know how to navigate through the page, so that I can easily explore the website.</td>
-4. As a user, I want to know what services the company is offering, so that I can see if they can help my company solve the problem.</td>
-5. As a user, I want to know more about the company, so that I can see if I can trust them.</td>
-6. As a user, I want to have an easy way to contact them, so that I can directly send the company a message.</td>
-7. As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
-8. As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
-9. As a user, I want to see a thank you page once I submit the contact form, so that I know my message was received.</td>
-10. As a user, I want to see the company's social media links, so that I can follow them there.</td>
+| ID | User Stories |
+|----|-------------|
+| 1  | As a first-time user, I want to be able to easily navigate through the website, so that I can find the content. |
+| 2  | As a user, I want to know how to navigate through the page, so that I can easily explore the website. |
+| 3  | As a user, I want to know how to navigate through the page, so that I can easily explore the website. |
+| 4  | As a user, I want to know what services the company is offering, so that I can see if they can help my company solve the problem. |
+| 5  | As a user, I want to know more about the company, so that I can see if I can trust them. |
+| 6  | As a user, I want to have an easy way to contact them, so that I can directly send the company a message. |
+| 7  | As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind. |
+| 8  | As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind. |
+| 9  | As a user, I want to see a thank you page once I submit the contact form, so that I know my message was received. |
+| 10 | As a user, I want to see the company's social media links, so that I can follow them there. |
 ## Design
 ### Inspiration
 I took inspiration from company Institue VZ from Slovenia https://www.institut-vz.si/</p>
@@ -62,14 +64,16 @@ Accessibility - I confirm that the colours and fonts chosen are easy to read and
 | #15 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
 | #16 | User click on Xing link in footer | Open new page in new tab and land on Xing company page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
 ## Credits
+### Inspiration
+Inspiration I took from [IVZ institut](https://www.institut-vz.si/) page from Slovenia.
 ### Image source
-Image of a ceo taken from ceo image taken from the https://pixabay.com/photos/consulting-hiring-board-executive-4405260/
-IMage of a hero image take from hero image was taken from: https://www.freepik.com/free-photos-vectors/pixel-hero
+Image of a [CEO](https://pixabay.com/photos/consulting-hiring-board-executive-4405260/) taken from CEO image taken from.
+Image of a [hero](https://www.freepik.com/free-photos-vectors/pixel-hero) image was taken from.
+### Main Hero image
+For hero image CSS I used styling from "Love Running project"
 ### Navigation
 For navigation I reuse the code that I found [here](https://codepen.io/tedib/pen/mdypQbg).
 How to fix the nav position I found on this forum resource [here](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox).
-### Main Hero image
-For hero image CSS I used styling from "Love Running project"
 ### Pages
 All pages are styled with Flexbox, and I used the knowledge from these tutorials:
 - [Tutorial 1](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1)
