@@ -113,7 +113,7 @@ html {
 
 /* hero image */
 .hero-container {
-    height: 700px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -124,7 +124,7 @@ html {
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 100vh;
+    height: 750px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -422,6 +422,10 @@ section .legal-text {
             padding: 0;
             margin: 0;
         }
+
+    section .about-container {
+            margin: 0 auto;
+        }
     
     #size-ceo {
             width: 90%;
@@ -433,6 +437,10 @@ section .legal-text {
     .services-container {
             grid-template-columns: 1fr;
             grid-template-rows: auto;
+        }
+    section .contact-container {
+            margin: 0 auto;
+            padding-bottom: 10%;
         }
 }
 
@@ -461,6 +469,10 @@ section .legal-text {
             margin: 0;
     }
 
+    section .about-container {
+            margin: 0 auto;
+        }
+
     .about-container .about-item {
         padding: 0 4px;
         margin: 0;
@@ -479,6 +491,11 @@ section .legal-text {
             padding: 0;
             margin: 0;
     }
+
+    section .contact-container {
+             margin: 0 auto;
+            padding-bottom: 10%;
+         }
 
     #services,
     #about,
