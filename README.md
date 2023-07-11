@@ -23,8 +23,10 @@ This is B2B business. Company is offering services for small, large business or 
 I took inspiration from company Institue VZ from Slovenia https://www.institut-vz.si/</p>
 ### Wireframe
 The idea for the page was to create onepager. When user click on any of the menu item, user is scroll down to this page. The last wireframe just show how it will look like when user will scroll on the bottom of the page. Note that end design got changed a bit - map is moved above contact form because of visual reasons - looks nicer.
+![wireframes](documentation/wireframe.png)
 ### Color palette
 Colour palette is taken from the company current visual identity.
+![colour pallette](documentation/color.png)
 ### Typography
 Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
 ## Features
