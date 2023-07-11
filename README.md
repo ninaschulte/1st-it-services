@@ -1,90 +1,47 @@
-<h1>1st IT Services</h1>
-
-<h2>About</h2>
+# 1st IT Services
+## About
 This is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need a new website.
-
-<h2>Strategy</h2>
+### Strategy
 The main goal of this website is to provide future clients with information about the company and what company can offer. 
-
-<h2>Target Group</h2>
+### Target
 This is B2B business. Company is offering services for small, large business or big corporations. 
-
-<h2>User stories</h2>
-<table>
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>User Story</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>#1</td>
-      <td>As a first-time user, I want to be able to easily navigate through the website, so that I can find the content.</td>
-    </tr>
-    <tr>
-      <td>#2</td>
-      <td>As a user, I want to know how to navigate through the page, so that I can easily explore the website.</td>
-    </tr>
-    <tr>
-      <td>#3</td>
-      <td>As a user, I want to know what services the company is offering, so that I can see if they can help my company solve the problem.</td>
-    </tr>
-    <tr>
-      <td>#4</td>
-      <td>As a user, I want to know more about the company, so that I can see if I can trust them.</td>
-    </tr>
-    <tr>
-      <td>#5</td>
-      <td>As a user, I want to have an easy way to contact them, so that I can directly send the company a message.</td>
-    </tr>
-    <tr>
-      <td>#6</td>
-      <td>As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
-    </tr>
-    <tr>
-      <td>#7</td>
-      <td>As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
-    </tr>
-    <tr>
-      <td>#8</td>
-      <td>As a user, I want to see a thank you page once I submit the contact form, so that I know my message was received.</td>
-    </tr>
-    <tr>
-      <td>#9</td>
-      <td>As a user, I want to see the company's social media links, so that I can follow them there.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1>Design</h1>
-<h3>Inspiration</h3>
-<p>I took inspiration for the page from this page https://www.institut-vz.si/</p>
-<h3>Wireframe</h3>
-<p>The idea for the page was to create onepager. When user click on any of the menu item, user is scroll down to this page. The last wireframe just show how it will look like when user will scroll on the bottom of the page. Note that end design got changed a bit - map is moved above contact form because of visual reasons - looks nicer.</p>
-<img width="1059" alt="Screenshot 2023-07-06 at 11 25 18" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/6cf90b1b-ffbb-423b-818b-92f763fba012">
-
-<h3>Color palette</h3>
-<p>Colour palette is taken from the company current visual identity</p>
-<img width="1137" alt="Screenshot 2023-07-06 at 11 17 03" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/b8e7f36c-9e85-4313-8513-07e421a2c46f">
-<h3>Typography</h3>
-<p>Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
-<img width="1035" alt="Screenshot 2023-07-06 at 11 20 56" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/11e98f16-ab0d-4862-b22b-1194ede4675f">
-
-<h1>Feature</h1>
-Add here all features and couple of lines what each feature does.
-
-<h1>Testing</h1>
-<h2>Validator testing</h2>
-<p>HTML - no errors were retured when passing through the official W3C validator.</p>
-<p>CSS - no errors were retured when passing through the official (Jigsaw) validator.</p>
-<p>Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.</p>
-<img width="475" alt="Screenshot 2023-07-11 at 12 07 39" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/8501ffa3-8ce5-4b61-aeb2-0a82df84ca82">
-
-<h2>Manual testing</h2>
-<table>
-  <thead>
-    <tr>
+## User stories
+1. As a first-time user, I want to be able to easily navigate through the website, so that I can find the content.
+2. As a user, I want to know how to navigate through the page, so that I can easily explore the website.
+3. As a user, I want to know how to navigate through the page, so that I can easily explore the website.</td>
+4. As a user, I want to know what services the company is offering, so that I can see if they can help my company solve the problem.</td>
+5. As a user, I want to know more about the company, so that I can see if I can trust them.</td>
+6. As a user, I want to have an easy way to contact them, so that I can directly send the company a message.</td>
+7. As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
+8. As a user, I want to see the company's email, phone, and address, so that I am sure there is a legit company behind.</td>
+9. As a user, I want to see a thank you page once I submit the contact form, so that I know my message was received.</td>
+10. As a user, I want to see the company's social media links, so that I can follow them there.</td>
+## Design
+### Inspiration
+I took inspiration from company Institue VZ from Slovenia https://www.institut-vz.si/</p>
+### Wireframe
+The idea for the page was to create onepager. When user click on any of the menu item, user is scroll down to this page. The last wireframe just show how it will look like when user will scroll on the bottom of the page. Note that end design got changed a bit - map is moved above contact form because of visual reasons - looks nicer.
+### Color palette
+Colour palette is taken from the company current visual identity.
+### Typography
+Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
+## Features
+### Navigation
+### Main
+#### Services
+#### About
+#### Contact
+##### Map
+##### Contact Form
+### Footer
+### Thank you
+### Impressum
+## Testing
+### Validator testing
+HTML - no errors were retured when passing through the official W3C validator.
+CSS - no errors were retured when passing through the official (Jigsaw) validator.
+Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.
+### Manual testing
       <th>ID</th>
       <th>User Action</th>
       <th>Expected Result</th>
