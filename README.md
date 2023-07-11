@@ -1,7 +1,7 @@
 <h1>1st IT Services</h1>
 
 <h2>About</h2>
-This is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need new website.
+This is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need a new website.
 
 <h2>Strategy</h2>
 The main goal of this website is to provide future clients with information about the company and what company can offer. 
