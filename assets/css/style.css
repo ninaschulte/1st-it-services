@@ -80,6 +80,10 @@ h3 {
     letter-spacing: .45rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .menu {
     display: flex;
     padding-right: 5%;
