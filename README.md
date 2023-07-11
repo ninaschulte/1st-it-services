@@ -75,6 +75,13 @@ This is B2B business. Company is offering services for small, large business or 
 Add here all features and couple of lines what each feature does.
 
 <h1>Testing</h1>
+<h2>Validator testing</h2>
+<p>HTML - no errors were retured when passing through the official W3C validator.</p>
+<p>CSS - no errors were retured when passing through the official (Jigsaw) validator.</p>
+<p>Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.</p>
+<img width="475" alt="Screenshot 2023-07-11 at 12 07 39" src="https://github.com/ninaschulte/1st-it-services/assets/136459773/8501ffa3-8ce5-4b61-aeb2-0a82df84ca82">
+
+<h2>Manual testing</h2>
 <table>
   <thead>
     <tr>
