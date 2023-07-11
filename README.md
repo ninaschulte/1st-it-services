@@ -19,14 +19,16 @@ This is B2B business. Company is offering services for small, large business or 
 | 9  | As a user, I want to see a thank you page once I submit the contact form, so that I know my message was received. |
 | 10 | As a user, I want to see the company's social media links, so that I can follow them there. |
 ## Design
+### Responsive layout
+![responsive layouts](ninaschulte_responsivelayouts.png)
 ### Inspiration
 I took inspiration from company Institue VZ from Slovenia https://www.institut-vz.si/</p>
 ### Wireframe
 The idea for the page was to create onepager. When user click on any of the menu item, user is scroll down to this page. The last wireframe just show how it will look like when user will scroll on the bottom of the page. Note that end design got changed a bit - map is moved above contact form because of visual reasons - looks nicer.
-![wireframes](documentation/wireframe.png)
+![wireframes](documentation/wireframes.png)
 ### Color palette
 Colour palette is taken from the company current visual identity.
-![colour pallette](documentation/color.png)
+![colour pallette](documentation/colours.png)
 ### Typography
 Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
 ## Features
