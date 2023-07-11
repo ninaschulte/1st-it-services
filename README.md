@@ -71,6 +71,8 @@ How to fix the nav position I found on this forum resource [here](https://stacko
 ### Main Hero image
 For hero image CSS I used styling from "Love Running project"
 ### Pages
-All pages are styled with Flexbox by [Kevin Powell]([https://www.youtube.com/c/KevinPowell](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=3))
-<h3>Footer</h3>
-<p>Footer CSS style, I used the code from here https://materializecss.com/footer.html</p>
+All pages are styled with Flexbox, and I used the knowledge from these tutorials:
+- [Tutorial 1](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1)
+- [Tutorial 2](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=2) by [Kevin Powell](https://www.youtube.com/c/KevinPowell)
+### Footer
+Footer CSS style, I used the code from [here](https://materializecss.com/footer.html).
