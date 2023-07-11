@@ -189,6 +189,7 @@ p {
 /* Size of the image for CEO */
 #size-ceo {
     width: 1500px;
+    height: auto;
     padding-right: 13%;
 }
 
@@ -277,7 +278,7 @@ textarea {
 
 /* Footer */
 .footer-container {
-    background-color: #a6a8ab;
+    background-color: #333333;
     width: 100%;
     margin-top: auto;
     display: flex;
