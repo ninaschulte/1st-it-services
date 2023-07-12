@@ -1,7 +1,7 @@
 # 1st IT Services
 ## About
-This is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need a new website.
-1. Link: https://ninaschulte.github.io/1st-it-services/
+1. Short company description: this is a company page that provides different IT services in the field of SAP authorizations. They are present for more then 15 years and need a new website.
+1. Link to the page: https://ninaschulte.github.io/1st-it-services/
 2. Author: Nina Schulte (maiden name Jesensek).
 ### Strategy
 The main goal of this website is to provide future clients with information about the company and what company can offer. 
