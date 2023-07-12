@@ -112,9 +112,9 @@ Image of a [hero](https://www.freepik.com/free-photos-vectors/pixel-hero) image 
 ### Main Hero image
 For hero image CSS I used styling from "Love Running project"
 ### Navigation
-For navigation I reuse the code that I found [here](https://codepen.io/tedib/pen/mdypQbg).
-How to fix the nav position I found on this forum resource [here](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox).
-Shadow for navigation I used shadow generator tool [here](https://cssgenerator.org/box-shadow-css-generator.html))
+1. For navigation I reuse the code that I found [here](https://codepen.io/tedib/pen/mdypQbg).
+2. How to fix the nav position I found on this forum resource [here](https://stackoverflow.com/questions/40772841/how-to-position-fixed-the-navbar-when-using-flexbox).
+3. Shadow for navigation I used shadow generator tool [here](https://cssgenerator.org/box-shadow-css-generator.html))
 ### Pages
 All pages are styled with Flexbox, and I used the knowledge from these tutorials:
 - [Tutorial 1](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=1)
