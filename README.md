@@ -41,7 +41,7 @@ Hero image with introduction text that inform customer about purpose of this pag
 ![hero](documentation/hero.png)
 #### Services
 Services page shows to the user all services that company provide. All services are clustered into four sections for easy scanning. 
-![services](documentation/services-final.png)
+![services](documentation/service-final.png)
 #### About
 About page is introduction page of the company to the user. User can read more about the company and can view also the CEO of the company.
 ![about](documentation/about-final.png)
