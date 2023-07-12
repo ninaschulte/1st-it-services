@@ -66,11 +66,15 @@ German specific legal page that every company should have.
 ![Impressum](documentation/impressum.png)
 ## Testing
 ### Validator testing
+#### HTML validator
 HTML - no errors were retured when passing through the official W3C validator.
 ![validator](documentation/html-validator.png)
+#### CSS validator
 CSS - no errors were retured when passing through the official (Jigsaw) validator.
+#### Lighthouse
 Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.
 ![accessibility](documentation/desktop.png)
+#### Chrome browser
 Tests were executed on chrome browser
 ![chrome](documentation/chrome.png)
 ### Manual testing
