@@ -28,7 +28,7 @@ The idea for the page was to create onepager. When user click on any of the menu
 ![wireframes](documentation/wireframes.png)
 ### Color palette
 Colour palette is taken from the company current visual identity.
-![colour pallette](documentation/colours.png)
+![colors](documentation/colours.png)
 ### Typography
 Typography is taken from the company currenty typography. Used for headings and parahraphs - font Ubunto</p>
 ## Features
@@ -36,6 +36,9 @@ Typography is taken from the company currenty typography. Used for headings and 
 The navigation section of this project consists of a logo positioned on the far left, accompanied by links to key pages such as "Contact," "About," and "Services." This navigation setup aims to provide users with easy access to essential sections of the website.
 ![navigation](documentation/navigation.png)
 ### Main
+#### Hero
+Hero image with introduction text that inform customer about purpose of this page. 
+![hero](documentation/hero.png)
 #### Services
 Services page shows to the user all services that company provide. All services are clustered into four sections for easy scanning. 
 ![services](documentation/services-final.png)
@@ -52,14 +55,16 @@ User is able to contact the company easy way with just filling up the contact fo
 ![contact form](documentation/contactform-final.png)
 ##### Contact Information
 User is able to see here all the company information.
-![navigation](documentation/contactinformation.png)
+![contactinfo](documentation/contactinformation.png)
 ### Footer
 The footer section of this project includes copyright information, a link to the legal page, and a direct link to the company's official Xing page. It serves as a valuable resource for users, providing essential legal details and facilitating engagement with the company's professional network presence.
-![navigation](documentation/contactinformation.png)
+![footer](documentation/footer.png)
 ### Thank you
 After user submit the form, thank you page is shown to the user, to tell the user that message was received.
-![thank you](documentation/thankyou.png)
+![thank you](documentation/thankyou-final.png)
 ### Impressum
+German specific legal page that every company should have.
+![Impressum](documentation/impressum.png)
 ## Testing
 ### Validator testing
 HTML - no errors were retured when passing through the official W3C validator.
