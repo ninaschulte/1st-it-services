@@ -71,8 +71,7 @@ HTML - no errors were retured when passing through the official W3C validator.
 ![validator](documentation/html-validator.png)
 #### CSS validator
 CSS - no errors were retured when passing through the official (Jigsaw) validator.
-*Note - error shown on screenshot is because I inserted shadow to navigation from the third party.
-![css validator](documentation/css-final.png)
+![css validator](documentation/css-zero.png)
 #### Lighthouse
 Accessibility - I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. *NOTE - footer colour I needed to take a shade darker gray from the colour pallete because of accessibility reasons.
 ![accessibility](documentation/desktop.png)
