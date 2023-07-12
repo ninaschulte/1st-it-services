@@ -459,7 +459,6 @@ section .legal-text {
 @media all and (max-width: 600px) {
     .logo {
         margin: .25em 0;
-        align-self: left;
     }
 
     #logo {
