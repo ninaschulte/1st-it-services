@@ -93,6 +93,12 @@ Tests were executed on chrome browser
 | #14 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
 | #15 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
 | #16 | User click on Xing link in footer | Open new page in new tab and land on Xing company page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+## Deployment
+This site was deployed to Github pages. Steps to deploy are as follows:
+1. In the Github repository, navigate to the Setting tab,
+2. From the source section drop-down menu, select the Master Branch
+3. Once the master branch has been selected, the page provided the link to the completed website.
+The live can be found [1st IT Services](https://ninaschulte.github.io/1st-it-services/)
 ## Credits
 ### Inspiration
 Inspiration I took from [IVZ institut](https://www.institut-vz.si/) page from Slovenia.
