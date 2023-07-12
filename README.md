@@ -55,7 +55,6 @@ User is able to contact the company easy way with just filling up the contact fo
 ![contact form](documentation/contactform-final.png)
 ##### Contact Information
 User is able to see here all the company information.
-![contactinfo](documentation/contactinformation.png)
 ### Footer
 The footer section of this project includes copyright information, a link to the legal page, and a direct link to the company's official Xing page. It serves as a valuable resource for users, providing essential legal details and facilitating engagement with the company's professional network presence.
 ![footer](documentation/footer.png)
