@@ -80,23 +80,23 @@ Tests were executed on chrome browser
 ### Manual testing
 | ID | User Action | Expected Result | Test Executed on desktop, tablet and mobile device |
 |----|-------------|----------------|---------------------------------------------------|
-| #1 | Click on logo | Page reload and land on the landing page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #2 | Click on "Home" in the menu | Page reload and land on the landing page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #3 | Click on "Services" in the menu | Scroll down to "Services" page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #4 | Click on "About" | Scroll down to "About" page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #5 | Click on "Contact" | Scroll down to "Contact" page | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #6 | Click on plus and minus on the map | Map zoom in and zoom out | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #7 | Click on "Your name" input field. | Input field get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #8 | Click on "Email" input field | Input field get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #9 | Click on "Message" textarea field | Textarea get active, user can start typing | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #9 | User type name, email address and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #10 | Happy path: User type name in the input field, email address in the input field and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #11 | Unhappy path: user type invalid email address and tap on "Submit" CTA | Error message appears stating @ is missing. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #12 | Unhappy path: user type correct email address and message and tap on "Submit" CTA | Error message appears that name is mandatory field. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #13 | User hover over menu items | Menu items change colour - only text | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #14 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #15 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
-| #16 | User click on Xing link in footer | Open new page in new tab and land on Xing company page. | Desktop: Y/N, Tablet: Y/N, Mobile: Y/N |
+| #1 | Click on logo | Page reload and land on the landing page | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #2 | Click on "Home" in the menu | Page reload and land on the landing page | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #3 | Click on "Services" in the menu | Scroll down to "Services" page. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #4 | Click on "About" | Scroll down to "About" page | Desktop: PASS, Tablet: PASS, Mobile: PASS  |
+| #5 | Click on "Contact" | Scroll down to "Contact" page | Desktop: PASS, Tablet: PASS, Mobile: PASS  |
+| #6 | Click on plus and minus on the map | Map zoom in and zoom out | Desktop: PASS, Tablet: PASS, Mobile: PASS  |
+| #7 | Click on "Your name" input field. | Input field get active, user can start typing | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #8 | Click on "Email" input field | Input field get active, user can start typing | Desktop: PASS, Tablet: PASS, Mobile: PASS  |
+| #9 | Click on "Message" textarea field | Textarea get active, user can start typing | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #9 | User type name, email address and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #10 | Happy path: User type name in the input field, email address in the input field and message in textarea and click on "Submit" CTA | User is let to thank you page. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #11 | Unhappy path: user type invalid email address and tap on "Submit" CTA | Error message appears stating @ is missing. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #12 | Unhappy path: user type correct email address and message and tap on "Submit" CTA | Error message appears that name is mandatory field. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #13 | User hover over menu items and links in the footer | Menu items and links in the footer change colour - only text | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #14 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: PASS, Tablet: PASS, Mobile: PASS |
+| #15 | User click on legal page in footer | Open new page with long text. Menu on top and footer on the bottom of the screen | Desktop: PASS, Tablet: PASS, Mobile: PASS  |
+| #16 | User click on Xing link in footer | Open new page in new tab and land on Xing company page. | Desktop: PASS, Tablet: PASS, Mobile: PASS |
 ## Deployment
 This site was deployed to Github pages. Steps to deploy are as follows:
 1. In the Github repository, navigate to the Setting tab,
