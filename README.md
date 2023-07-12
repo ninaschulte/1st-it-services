@@ -122,3 +122,5 @@ All pages are styled with Flexbox, and I used the knowledge from these tutorials
 - [Tutorial 2](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&index=2) by [Kevin Powell](https://www.youtube.com/c/KevinPowell)
 ### Footer
 Footer CSS style, I used the code from [here](https://materializecss.com/footer.html).
+### Copy
+Copy I got from CEO of 1st IT Services company itself.
